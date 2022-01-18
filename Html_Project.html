@@ -11,6 +11,235 @@
     <header><h1>World's Best Cuisines Restaurant</h1></header>
        <p>Welcome to <strong>World's Best Cuisine's Restaurant</strong>, where quality always comes first and every meal is made to order. Take a look at some of our featured menu items then come in and try them for yourself to find out how <strong><em>great</em></strong> food can be!</p>
       <br>
+      <table width="100%">
+        <thead>
+            <tr>
+                <th colspan="5"><h2>MENU</h2></th>
+            </tr>
+            <tr>
+                <th><h3>Food Categories</h3></th>
+                <th colspan="2"><h3>Foods</h3></th> 
+                <th><h3>Price</h3></th> 
+                <th><h3>Quantity</h3></th>  
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <th rowspan="3">American Food</th>
+                <td rowspan="3" colspan="2">Hamburger<br><br><br>Pizza</td>
+                <td>
+                    <form>
+                        <label for="seafood">Seafood = $12.00</label>
+                        <input id="seafood" name="seafood" type="checkbox" value="seafood">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="quantity">Type or Click:</label>
+                        <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                        <datalist id="numbers">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="other ="></option>
+                        </datalist>
+                    </form>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                <form>
+                    <label for="meat">Meat = $10.00</label>
+                    <input id="meat" name="meat" type="checkbox" value="meat">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="quantity">Type or Click:</label>
+                    <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                    <datalist id="numbers">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="other ="></option>
+                    </datalist>
+                </form> 
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="vegan">Vegan = $12.00</label>
+                        <input id="vegan" name="vegan" type="checkbox" value="vegan">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="quantity">Type or Click:</label>
+                        <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                        <datalist id="numbers">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="other ="></option>
+                        </datalist>
+                    </form> 
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="3">Asian Food</th>
+                <td rowspan="3" colspan="2">Sushi<br><br><br>Noodles</td>
+                <td>
+                    <form>
+                        <label for="seafood">Seafood = $12.00</label>
+                        <input id="seafood" name="seafood" type="checkbox" value="seafood">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="quantity">Type or Click:</label>
+                        <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                        <datalist id="numbers">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="other ="></option>
+                        </datalist>
+                    </form>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                <form>
+                    <label for="meat">Meat = $10.00</label>
+                    <input id="meat" name="meat" type="checkbox" value="meat">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="quantity">Type or Click:</label>
+                    <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                    <datalist id="numbers">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="other ="></option>
+                    </datalist>
+                </form> 
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="vegan">Vegan = $12.00</label>
+                        <input id="vegan" name="vegan" type="checkbox" value="vegan">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="quantity">Type or Click:</label>
+                        <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                        <datalist id="numbers">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="other ="></option>
+                        </datalist>
+                    </form> 
+                </td>
+            </tr>
+            <tr>
+                <th rowspan="3">European Food</th>
+                <td rowspan="3" colspan="2">Pasta<br><br><br>Salad</td>
+                <td>
+                    <form>
+                        <label for="seafood">Seafood = $12.00</label>
+                        <input id="seafood" name="seafood" type="checkbox" value="seafood">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="quantity">Type or Click:</label>
+                        <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                        <datalist id="numbers">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="other ="></option>
+                        </datalist>
+                    </form>
+                </td>   
+            </tr>
+            <tr>
+                <td>
+                <form>
+                    <label for="meat">Meat = $10.00</label>
+                    <input id="meat" name="meat" type="checkbox" value="meat">
+                </form>
+            </td>
+            <td>
+                <form>
+                    <label for="quantity">Type or Click:</label>
+                    <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                    <datalist id="numbers">
+                        <option value="1"></option>
+                        <option value="2"></option>
+                        <option value="3"></option>
+                        <option value="4"></option>
+                        <option value="5"></option>
+                        <option value="other ="></option>
+                    </datalist>
+                </form> 
+            </td>
+            </tr>
+            <tr>
+                <td>
+                    <form>
+                        <label for="vegan">Vegan = $12.00</label>
+                        <input id="vegan" name="vegan" type="checkbox" value="vegan">
+                    </form>
+                </td>
+                <td>
+                    <form>
+                        <label for="quantity">Type or Click:</label>
+                        <input type="text" name="quantity" id="quantity" list="numbers" placeholder="0" style="text-align: center;"/>
+                        <datalist id="numbers">
+                            <option value="1"></option>
+                            <option value="2"></option>
+                            <option value="3"></option>
+                            <option value="4"></option>
+                            <option value="5"></option>
+                            <option value="other ="></option>
+                        </datalist>
+                    </form> 
+                </td>
+            </tr>
+        </tbody>
+    </table>
+<br>
+<br>
+
+
+
+
+
+
+
+
     <section id="American Food">
         <h3>American Food</h3>
           <figure>
@@ -143,50 +372,7 @@
             </form>
         </article>
     </section>
-    <table>
-        <thead>
-            <tr>
-                <th colspan="4"><h2>MENU</h2></th>
-            </tr>
-            <tr>
-                <th><h3>Food Categories</h3></th>
-                <th colspan="2"><h3>Foods</h3></th> 
-                <th><h3>Price</h3></th>   
-            </tr>
-        </thead>
-        <tbody>
-            <tr>
-                <th rowspan="2">American Food</th>
-                <td colspan="2">Hamburger</td>
-                <td> meat = $7.00 <br> vegan = $12.00 <br>seafood = $15.00</td>
-            </tr>
-            <tr>
-                <td colspan="2">Pizza</td>
-                <td> meat = $15.00 <br> vegan = $10.00 <br>seafood = $18.00</td>
-            </tr>
-            <tr>
-                <th rowspan="2">Asian Food</th>
-                <td colspan="2">Sushi</td>
-                <td> meat = $9.00 <br> vegan = $8.00 <br>seafood = $10.00</td>
-            </tr>
-            <tr>
-                <td colspan="2">Noodles</td>
-                <td> meat = $7.00 <br> vegan = $5.00 <br>seafood = $10.00</td>
-            </tr>
-            <tr>
-                <th rowspan="2">European Food</th>
-                <td colspan="2">Pasta</td>
-                <td> meat = $9.00 <br> vegan = $8.00 <br>seafood = $13.00</td>
-            </tr>
-            <tr>
-                <td colspan="2">Salad</td>
-                <td> meat = $9.00 <br> vegan = $7.00 <br>seafood = $14.00</td>
-            </tr>
-            
-        </tbody>
-    </table>
-<br>
-<br>
+
 <form action="#" method="POST">
     <input type="text" name="first-text-field" value="already pre-filled">
 </form>
