@@ -1,5 +1,4 @@
 body {
-    background: rgb(235, 223, 119);
     margin: 0;
     padding:0%
 }
@@ -31,7 +30,7 @@ thead th {
 }
 
 tr {
-    background: #f4f7f8;
+    background: #ecd9bd;
     border-bottom: 1px solid #fff;
     margin-bottom: 5px;
 }
