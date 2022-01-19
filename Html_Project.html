@@ -1,11 +1,17 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <link href="data:image/x-icon;base64,AAABAAEAEBAQAAEABAAoAQAAFgAAACgAAAAQAAAAIAAAAAEABAAAAAAAgAAAAAAAAAAAAAAAEAAAAAAAAAAAAAAA/4QAAKtdCQD/vXUAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAiIiIAAAAAERAAAiIAAAEQACIAAiAAAQARESIAIAAxAxAAAiAiADADAAAAAAEAMAMAAAAAAQAwAwAAAAABADMDMAABIBEAAwAzMREAEAADMAAzAAEQAAAzMAABEQAAAAAzMzMAAAAAAAAAAAAAD//wAA//8AAPgfAADjxwAAznMAANgbAACTyQAAt/0AALf9AAC3/QAAk8kAANgbAADOcwAA48cAAPgfAAD//wAA" rel="icon" type="image/x-icon" />
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>International Food</title>
     <link rel="stylesheet" href="style.css">
+    <style>
+        header {
+            text-align: center;
+        }
+    </style>
 </head>
 <body>
     <header><h1>World's Best Cuisines Restaurant</h1></header>
@@ -60,7 +66,7 @@
         </thead>
         <tbody>
             <tr>
-                <th rowspan="6">American Food</th>
+                <th rowspan="6"><strong>American Food</strong></th>
                 <td rowspan="3" colspan="2">Hamburger</td>
                 <td>
                     <form>
@@ -195,7 +201,7 @@
                 </td>
             </tr>
             <tr>
-                <th rowspan="6">Asian Food</th>
+                <th rowspan="6"><strong>Asian Food</strong></th>
                 <td rowspan="3" colspan="2">Sushi</td>
                 <td>
                     <form>
@@ -330,7 +336,7 @@
                 </td>
             </tr>
             <tr>
-                <th rowspan="6">European Food</th>
+                <th rowspan="6"><strong>European Food</strong></th>
                 <td rowspan="3" colspan="2">Pasta</td>
                 <td>
                     <form>
@@ -465,22 +471,43 @@
                 </td>
             </tr>
         </tbody>
+        <tfoot>
+            <tr>
+                <td></td>
+                <th colspan="2"><strong>Total</strong></th>
+                <td>
+                    <form action="#" method="post">
+                        <input type="text" name="first-text-field">
+                    </form>
+                </td>
+                <td>
+                    <input type="submit" value="submit">
+                </td>
+
+            </tr>
+        </tfoot>
     </table>
 <br>
 <br>
-
-
-
-
-
-
-
-
-
 <form action="#" method="POST">
-    <input type="text" name="first-text-field" value="already pre-filled">
+    <h3>We Are Happy To Hear From You!</h3>
+    <label for="Name">Name</label>
+    <br>
+    <input type="text" id="Name" name="Name" required>
+    <br>
+    <label for="Email">Your Email address</label>
+    <br>
+    <input type="email" id="Email" name="Email" required>
+    <br>
+    <label for="Message">Your message</label>
+    <br>
+    <textarea id="Message" name="Message" required placeholder="your comment here"></textarea>
+    <br>
+    <button type="submit" id="button">Send</button>
 </form>
+
 </body>
+<br>
 <footer>
     <p>
         <h3>Created by:</h3>
